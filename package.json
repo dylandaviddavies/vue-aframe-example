@@ -10,6 +10,9 @@
   "dependencies": {
     "aframe": "^1.2.0",
     "core-js": "^3.6.5",
+    "d3": "^6.7.0",
+    "d3-array": "^2.12.1",
+    "d3-selection": "^2.0.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {
