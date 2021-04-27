@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <a-scene>
+    <a-box
+        color="#0095DD"
+        position="0 1 0"
+        rotation="20 40 0">
+    </a-box>
+    <a-camera
+        position="0 1 4"
+        cursor-visible="true"
+        cursor-scale="2"
+        cursor-color="#0095DD"
+        cursor-opacity="0.5">
+    </a-camera>
+    <a-sky color="#DDDDDD"></a-sky>
+  </a-scene>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
   }
 }
 </script>
