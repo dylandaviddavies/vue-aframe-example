@@ -6,6 +6,7 @@
         rotation="20 40 0">
     </a-box>
     <a-camera
+        look-controls
         position="0 1 4"
         cursor-visible="true"
         cursor-scale="2"
